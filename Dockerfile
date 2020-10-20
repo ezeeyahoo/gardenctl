@@ -42,7 +42,7 @@ RUN apt-get --yes update;\
     apt-get --yes install tmux;\
     apt-get --yes install bash-completion;\
     apt-get --yes install unzip;\
-    curl -sL https://github.com/jingweno/ccat/releases/download/v1.1.0/linux-amd64-1.1.0.tar.gz -o ccat.tar.gz && tar -zxvf ccat.tar.gz linux-amd64-1.1.0/ccat && mv linux-amd64-1.1.0/ccat /bin/cat && rm -rf linux-amd64-1.1.0 ccat.tar.gz && chmod 755 /bin/cat;\
+    curl -sL https://github.com/ezeeyahoo/ccat/releases/download/1.1.0/linux-ppc64le-1.1.0-34-g9c1bfb7.tar.gz -o ccat.tar.gz && tar -zxvf ccat.tar.gz linux-ppc64le-1.1.0/ccat && mv linux-ppc64le-1.1.0/ccat /bin/cat && rm -rf linux-ppc64le-1.1.0 ccat.tar.gz && chmod 755 /bin/cat;\
     curl -sL http://stedolan.github.io/jq/download/linux64/jq -o /bin/jq && chmod 755 /bin/jq;\
     curl -sL https://github.com/bronze1man/yaml2json/raw/master/builds/linux_amd64/yaml2json -o /bin/yaml2json && chmod 755 /bin/yaml2json;\
     # remove package lists to safe space
